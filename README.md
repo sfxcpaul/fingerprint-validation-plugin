@@ -13,17 +13,17 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`validateFingerPrint(...)`](#validatefingerprint)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### validateFingerPrint(...)
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+validateFingerPrint(options: { value: string; }) => Promise<{ value: string; }>
 ```
 
 | Param         | Type                            |

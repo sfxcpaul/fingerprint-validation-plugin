@@ -4,8 +4,8 @@ import android.util.Log;
 
 public class FingerPrintValidation {
 
-    public String echo(String value) {
-        Log.i("Echo", value);
+    public String validateFingerPrint(String value) {
+        Log.i("validateFingerPrint", value);
         return value;
     }
 }

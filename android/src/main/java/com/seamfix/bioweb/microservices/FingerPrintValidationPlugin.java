@@ -12,11 +12,11 @@ public class FingerPrintValidationPlugin extends Plugin {
     private FingerPrintValidation implementation = new FingerPrintValidation();
 
     @PluginMethod
-    public void echo(PluginCall call) {
+    public void validateFingerPrint(PluginCall call) {
         String value = call.getString("value");
 
         JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
+        ret.put("value", implementation.validateFingerPrint(value));
         call.resolve(ret);
     }
 }

@@ -6,8 +6,8 @@ export class FingerPrintValidationWeb
   extends WebPlugin
   implements FingerPrintValidationPlugin
 {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
+  async validateFingerPrint(options: { value: string }): Promise<{ value: string }> {
+    console.log('validateFingerPrint', options);
     return options;
   }
 }

@@ -1,3 +1,3 @@
 export interface FingerPrintValidationPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  validateFingerPrint(options: { value: string }): Promise<{ value: string }>;
 }
